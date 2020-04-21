@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-appliance:alpine-4.0-latest
+FROM zabbix/zabbix-appliance:alpine-4.0.10
 
 COPY res/ /root/res/
 
