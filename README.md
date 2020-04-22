@@ -1,5 +1,5 @@
 #### PULL镜像
-docker pull letmehold/zabbix:appliance
+docker pull letmehold/zabbix:&lt;version&gt;
 #### 启动容器
 docker run --name zabbix-server \\  
 　　-e PHP_TZ="Asia/Shanghai" \\  
