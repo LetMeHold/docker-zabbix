@@ -2,11 +2,11 @@
 docker pull letmehold/zabbix:appliance
 #### 启动容器
 docker run --name zabbix-server \\  
--e PHP_TZ="Asia/Shanghai" \\  
--v </path/to/mysql>:/var/lib/mysql \\  
--p 10051:10051 \\  
--p 80:80 \\  
--dt letmehold/zabbix:<version>
+&emsp;-e PHP_TZ="Asia/Shanghai" \\  
+&emsp;-v &lt;/path/to/mysql&gt;:/var/lib/mysql \\  
+&emsp;-p 10051:10051 \\  
+&emsp;-p 80:80 \\  
+&emsp;-dt letmehold/zabbix:&lt;version&gt;
 #### 登录容器
 docker exec -ti zabbix-server bash
 #### 退出容器
