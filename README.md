@@ -16,3 +16,6 @@ exit
 http://[your ip address]:80
 #### 初始用户
 Admin/zabbix
+#### 特别说明
+宿主机的zabbix-agent应该配置该容器的IP为zabbix-server
+而其他机器则配置宿主机的IP为zabbix-server
